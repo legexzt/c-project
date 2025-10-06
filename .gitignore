@@ -1,0 +1,38 @@
+# Compiled executables
+*.exe
+*.out
+*.o
+*.obj
+a.out
+
+# Build directory
+build/*
+!build/.gitkeep
+
+# Sensitive data
+passwords.txt
+
+# IDE and editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+tempCodeRunnerFile.*
+temp.*
+
+# Debug files
+*.pdb
+*.ilk
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Documentation builds
+docs/_build/
+*.pdf
+*.docx
